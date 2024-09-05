@@ -10,6 +10,39 @@
 
 
 ## Live Demo ##
+name="Chuck"
+number = 100
+newNumber = "100"
+print(number/2)
+#Casting example
+print(int(newNumber)/2)
+
+
+myFloat = 3.54
+
+num1 = 100
+num2 = 75
+num3 = 96
+avg = (num1 + num2 + num3)/3
+print(f"Average:{avg}")
+print("Average ", avg)
+print(avg)
+print("Average " + str(avg))
+
+
+beds = 4
+bath = 3
+address = "393 Python St"
+city = "Folsom"
+zip = 95630
+rent = 8000
+print (f"House for rent at {address} in {city} ({zip})")
+print(f"\t{beds} bedrooms, {bath} bathrooms")
+print(f"\trent is ${rent}/month")
+
+#File path example
+print("I have a file located at: C:\\Users\\myname\\Documents\\oneNote.." )
+
 #
 # Casing
 #name = input("What is your name? ")
